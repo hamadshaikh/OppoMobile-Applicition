@@ -56,7 +56,7 @@ margin:  0 20px;
     top: 0;
     left: 0;
     border-radius: 50%;
-    background: #ccc;
+    /* background: #ccc; */
 }
 .feature img{
     width: 70px; 
@@ -96,4 +96,25 @@ margin:  0 20px;
     left: 35%;
     transform: translateY(-50%);
     z-index: 1  ;
+}
+.controls{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.controls h3{
+    margin: 15px;
+    color: #fff;
+}
+#downbtn{
+    width: 15px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+#upbtn{
+    width: 15px;
+    cursor: pointer;
+    
 }
