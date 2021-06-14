@@ -46,7 +46,7 @@ margin:  0 20px;
     height: 1000px;
     position: absolute;
     top: 50%;
-    left: 0;
+    left: -10%;
     transform: translateY(-50%);
 }
 #circle{
@@ -62,11 +62,12 @@ margin:  0 20px;
 }
 .feature img{
     width: 70px; 
+    color: #fff;
 }
 .feature{
     position: absolute ;
     display: flex;
-    /* color: #fff; */
+    color: #fff;
 }
 .feature div{
     margin-left:30px ;
@@ -82,14 +83,17 @@ margin:  0 20px;
 .two{
     top: 150px;
     left: 350px;
+    transform: rotate(-90deg);
 }
 .thre{
     bottom: 450px;
     left: 50px;
+    transform: rotate(-180deg);
 }
 .four{
     bottom: 150px;
     right: 350px;
+    transform: rotate(-270deg);
 } 
 .mobile{
     width: 200px;
@@ -118,4 +122,15 @@ margin:  0 20px;
     width: 15px;
     cursor: pointer;
     transform: rotate(180deg);
+}
+.overlay{
+    width: 0;
+    height: 0;
+    border-top: 500px solid #fff;
+    border-right: 500px solid transparent;
+    border-bottom: 500px solid #fff;
+    border-left: 500px solid#fff;
+    position: absolute;
+    left: 0;
+    top: 0;
 }

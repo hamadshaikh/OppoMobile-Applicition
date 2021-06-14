@@ -12,3 +12,9 @@
             circle.style.transform = rotateSum;
             rotateValue = rotateSum;
         }
+        downbtn.onclick = function()
+        {
+             rotateSum = rotateValue + "rotate(90deg)";
+            circle.style.transform = rotateSum;
+            rotateValue = rotateSum;
+        }
