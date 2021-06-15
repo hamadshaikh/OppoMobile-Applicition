@@ -103,6 +103,9 @@ margin:  0 20px;
     transform: translateY(-50%);
     z-index: 1  ;
 }
+.mobile img{
+    width: 200px;
+}
 .controls{
     position: absolute;
     right: 10%;
